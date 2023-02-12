@@ -48,5 +48,5 @@ cat = ("""\
 
 @app.get("/")
 def root():
-    return {cat}
+    return print(cat)
 
